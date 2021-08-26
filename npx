@@ -1,0 +1,32 @@
+                                                      
+                        #######                       
+                   ################                   
+                #########     #########               
+            #########             ##########          
+        #########        ######        #########      
+       ##########################################     
+      #####      #####################       #####    
+      #####          ##############          #####    
+      #####    ###       ######       ###    #####    
+      #####    #######            #######    #####    
+      #####    ###########    ###########    #####    
+      #####    ##########################    #####    
+      #####    ##########################    #####    
+      #####      ######################     ######    
+       ######        #############        #######     
+         #########        ####       #########        
+              #########          #########            
+                  ######### #########                 
+                       #########                      
+                                                      
+                                                      
+Error: listen EADDRINUSE: address already in use :::8081
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at C:\Users\hemit\AppData\Roaming\npm\node_modules\react-native\node_modules\metro\src\index.js:164:16
+    at new Promise (<anonymous>)
+    at Object.exports.runServer (C:\Users\hemit\AppData\Roaming\npm\node_modules\react-native\node_modules\metro\src\index.js:163:10)
+    at async Object.runServer [as func] (C:\Users\hemit\AppData\Roaming\npm\node_modules\react-native\node_modules\@react-native-community\cli\build\commands\start\runServer.js:113:26)
+    at async Command.handleAction (C:\Users\hemit\AppData\Roaming\npm\node_modules\react-native\node_modules\@react-native-community\cli\build\index.js:186:9)
+info Run CLI with --verbose flag for more details.
